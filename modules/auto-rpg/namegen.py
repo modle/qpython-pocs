@@ -1,9 +1,9 @@
 import random
 from fileutils import loadfile
 
-weapons = loadfile('weapons.txt')
-prefixes = loadfile('prefixes.txt')
-suffixes = loadfile('suffixes.txt')
+weapons = loadfile('assets/weapons.txt')
+prefixes = loadfile('assets/prefixes.txt')
+suffixes = loadfile('assets/suffixes.txt')
 
 for weapon in weapons:
     prefix = random.choice(prefixes)

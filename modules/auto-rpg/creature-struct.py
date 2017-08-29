@@ -4,7 +4,7 @@
 import random
 from fileutils import loadfile
 
-creatures = loadfile('creatures.txt')
+creatures = loadfile('assets/creatures.txt')
 
 def loadCreature(level):
     creature = {}
@@ -12,5 +12,5 @@ def loadCreature(level):
     creature ['name'] = random.choice(creatures)
     creature ['hitpoints'] = 10 * level
     return creature
-    
+
 print (loadCreature(1))

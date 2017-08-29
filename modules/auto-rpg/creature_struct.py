@@ -12,5 +12,3 @@ def loadCreature(level):
     creature ['name'] = random.choice(creatures)
     creature ['hitpoints'] = 10 * level
     return creature
-
-print (loadCreature(1))

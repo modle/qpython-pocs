@@ -5,10 +5,11 @@ import random
 from fileutils import loadfile
 
 creatures = loadfile('assets/creatures.txt')
+prefixes = loadfile('assets/prefixes.txt')
 
 def loadCreature(level):
     creature = {}
     creature ['level'] = level
-    creature ['name'] = random.choice(creatures)
+    creature ['name'] = '{} {}'.format(random.choice(prefixes), random.choice(creatures))
     creature ['hitpoints'] = 10 * level
     return creature

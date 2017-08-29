@@ -5,8 +5,8 @@ from creature_struct import loadCreature
 from player_struct import loadPlayer
 import time
 
-creature = loadCreature(1)
 player = loadPlayer()
+creature = loadCreature(player['level'])
 attack_string = '{} attacks {} for {} point(s) of damage!'
 
 while(1):

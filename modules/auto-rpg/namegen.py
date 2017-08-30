@@ -1,3 +1,6 @@
+#-*-coding:utf8;-*-
+#qpy:3
+
 import random
 from fileutils import loadfile
 

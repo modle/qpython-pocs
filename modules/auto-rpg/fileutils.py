@@ -1,3 +1,6 @@
+#-*-coding:utf8;-*-
+#qpy:3
+
 import os
 
 def loadfile(file_path):

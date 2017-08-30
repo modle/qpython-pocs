@@ -1,8 +1,12 @@
+#-*-coding:utf8;-*-
+#qpy:3
 
-def loadPlayer():
+def load_player():
     player = {}
     player['name'] = 'player'
     player['hitpoints'] = 10
+    player['maxhitpoints'] = 10
     player['level'] = 1
-    player['damage'] = 5
+    player['damage'] = 8
+    player['defense'] = 1
     return player
